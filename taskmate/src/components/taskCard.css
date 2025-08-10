@@ -1,0 +1,29 @@
+.task-card li{
+    font-size: 17px;
+    list-style: none;
+    margin: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-card li.completed{
+    box-shadow: rgb(48, 114, 0) 0px 1px 4px;
+}
+
+.task-card li.incomplete{
+    box-shadow: rgba(135, 20, 0, 0.689) 0px 1px 4px;
+}
+
+
+.task-card button.delete{
+    border: 0;
+    border-radius: 5px;
+    background-color: #be3434;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
